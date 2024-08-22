@@ -1,0 +1,163 @@
+<html>
+    <title>Layout page</title>
+    <head></head>
+    <style>
+        header{
+            display:flex;
+            height:200px;
+            flex-direction: row;
+        }
+        .left{
+            height:inherit;
+            width:20%;
+            background-image:url("shinchan.jpeg");
+            background-size:cover
+
+        }
+        .right{
+            height:inherit;
+            width:80%;
+            background-color: aqua;
+            
+        }
+        h1{
+            text-align:center;
+            font-style: italic;
+            font-size: 65px;
+        }
+        p{
+            text-align:center;
+            font-style: italic;
+            font:35px;
+        }
+        p{
+            text-align: center;
+            font-size:25px ;
+            color: blue;
+        }
+        nav{
+            height:35px;
+            display:flex;
+            background-color:rgb(147, 20, 220);
+            flex-direction:row;
+            font-style: italic;
+            font-size:25px;
+            
+        }
+        .n{
+            height:inherit;
+            width:25%;
+             display:flex;
+            justify-content: center;
+            align-items:center  ;
+        }
+        .n:hover{
+            background-color: darkgreen;
+            transition:3s;
+        }
+        a{
+            color:white;
+            text-decoration: none;
+            font-size:25px;
+        }
+        section{
+            height:400px;
+            display:flex;
+            flex-direction:row;
+        }
+        .s1{
+            height:inherit;
+            width:25%;
+            background-color: rgb(242, 0, 255);
+
+        }
+        .s2{
+            padding-left: 50px;
+            height:inherit;
+            width:50%;
+            background-color:yellow;
+
+            
+        }
+        .s3{
+            height:inherit;
+            width:25%;
+            background-color:red;
+
+        }
+        marquee{
+            height:inherit;
+            text-align: center;
+            font-size:25 ;
+            font-style: italic;
+        }
+        footer{
+            height:100px;
+            width=100%;
+            background-color:darkorange;
+            text-align: center;
+
+        }
+        h2{
+            text-align: center;
+            color:white;
+        }
+       
+        
+    </style>
+    <body>
+        <header>
+            <div class="left"></div>
+            <div class="right">
+                 <h1>SHINCHAN SCHOOL</h1>
+                 <p>Kasukabe City, Saitama Prefecture, Japan</p>
+            </div>
+
+        </header>
+        <nav>
+            
+            <div class="n">
+                <a href="">Home</a>
+            </div>
+            <div class="n">
+                <a href="">Friends</a>
+            </div>
+            
+            <div class="n">
+                <a href="">Family</a>
+            </div>
+            <div class="n">
+                <a href="">Contact</a>
+            </div>
+            
+            
+        </nav>
+        <section>
+            <div class="s1">
+                <marquee direction="up"onmouseout="this.start()"onmousemove="this.stop()">
+                    <h3>Annual Day</h3>
+                    <h3>Sports day</h3>
+                    <h3>Celebrations</h3>
+                </marquee>
+            </div>
+            <div class="s2">
+                <img src="sinchan friends.jpeg">
+                <img src="shero.jpeg">
+                <p> "A day without a friend is like a pot without a single drop of honey left inside" </p>
+                <p>"The most important thing in the world is family ,friendship and love.” </p>
+                <p>-By Shinchan</p>
+            </div>
+            
+            <div class="s3">
+                <img src="game.jpeg"; height="300px"; width="350px">
+                <p>He loves Action-Kamen and always imitates his actions</p>
+                
+            </div>
+                
+           
+        </section>
+        <footer>
+            <h2>Thank you</h2>
+        </footer>
+    </body>
+</html>
